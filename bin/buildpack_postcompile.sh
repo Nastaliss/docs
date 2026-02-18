@@ -15,4 +15,17 @@ rm -rf src/frontend/node_modules/@swc src/frontend/node_modules/typescript
 rm -rf src/frontend/node_modules/prettier src/frontend/node_modules/@babel
 rm -rf src/frontend/node_modules/caniuse-lite src/frontend/node_modules/@types
 
-# du -ch | sort -rh | head -n 100
+# Remove additional build artifacts
+rm -rf src/frontend/node_modules/.cache
+rm -rf .github crowdin gitlint .gitlint .sops.yaml
+rm -rf src/frontend/node_modules/@vitest src/frontend/node_modules/vitest
+rm -rf src/frontend/node_modules/@playwright src/frontend/node_modules/playwright*
+rm -rf src/frontend/node_modules/eslint* src/frontend/node_modules/@eslint
+rm -rf src/frontend/node_modules/@testing-library src/frontend/node_modules/jest*
+rm -rf src/frontend/node_modules/@storybook src/frontend/node_modules/storybook
+rm -rf src/frontend/node_modules/webpack src/frontend/node_modules/terser
+rm -rf src/frontend/node_modules/@cuningham
+rm -rf src/frontend/node_modules/react-dom src/frontend/node_modules/react
+rm -rf src/frontend/node_modules/@react-pdf src/frontend/node_modules/pdfjs-dist
+
+du -ch | sort -rh | head -n 50
