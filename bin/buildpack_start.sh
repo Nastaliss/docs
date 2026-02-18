@@ -4,7 +4,7 @@
 gunicorn -b :8000 impress.wsgi:application --log-file - &
 
 # Start the Y provider service
-cd src/frontend/servers/y-provider && PORT=4444 ../../.scalingo/node/bin/node dist/start-server.js &
+cd src/frontend/servers/y-provider && PORT=4444 node dist/start-server.js &
 
 # Start the Nginx server
 bin/run &
