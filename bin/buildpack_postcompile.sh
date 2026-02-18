@@ -5,7 +5,7 @@ set -o pipefail   # don't ignore exit codes when piping output
 
 echo "-----> Running post-compile script"
 
-rm -rf docker docs env.d gitlint src/frontend/apps/e2e
+rm -rf deploy docker docs env.d gitlint src/frontend/apps/e2e
 rm -rf src/frontend/apps
 rm -rf src/frontend/packages
 

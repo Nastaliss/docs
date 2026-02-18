@@ -10,6 +10,6 @@ mkdir -p build/
 mv src/frontend/apps/impress/out build/frontend-out
 
 mv src/backend/* ./
-mv src/nginx/* ./
+mv deploy/nginx/* ./
 
 echo "3.13" > .python-version
