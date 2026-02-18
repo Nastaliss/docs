@@ -12,6 +12,11 @@ We also provide [Docker images](https://hub.docker.com/u/lasuite?page=1&search=i
 Please follow the instructions [here](/docs/installation/compose.md). 
 ⚠️ Please keep in mind that we do not use it ourselves in production. Let us know in the issues if you run into troubles, we'll try to help.
 
+## Scalingo
+Docs can be deployed on [Scalingo](https://scalingo.com/) using buildpacks.
+Please follow the instructions [here](/docs/installation/scalingo.md).
+⚠️ Please keep in mind that we do not use it ourselves in production.
+
 ## Other ways to install Docs
 Community members have contributed several other ways to install Docs. While we owe them a big thanks 🙏, please keep in mind we (Docs maintainers) can't provide support on these installation methods as we don't use them ourselves and there are two many options out there for us to keep track of. Of course you can contact the contributors and the broader community for assistance.
 
