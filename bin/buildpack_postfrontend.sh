@@ -13,3 +13,4 @@ mv src/backend/* ./
 mv deploy/nginx/* ./
 
 echo "3.13" > .python-version
+echo "." > requirements.txt
